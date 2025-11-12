@@ -45,10 +45,10 @@ public:
 
     Fular& operator=(const Fular& f) {
         if (this != &f) {
-            pret = f.pret;
+            pret = f.pret; 
             iarna = f.iarna;
             delete material;
-            material = new string(*f.material);
+            material = new string(*f.material);  
         }
         return *this;
     }
